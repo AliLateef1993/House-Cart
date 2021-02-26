@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+#logo-container img{
+    width: 75%;
+    padding: 0 10%;
+}
+
+nav{
+    flex: 2;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    
+}
+
+#header-bg{
+    width: 100%;
+	height: 30rem;
+	background-image: url(./Images/header.bg.png);
+	background-size: cover;
+	background-position: bottom center;
+
+}
+
+.header-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(10rem);
+}
+
+.header-content p{
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #fff;
+
+}
+
+.header-content h1{
+    font-size: 3rem;
+    color: #ffff;
+}
+ 
+input{
+    padding: 0% 1%;
+    margin-top: 2rem;
+    border: 10px solid #7c3512;
+    width: 58%;
+    height: 3em;
+}
+
+.Username text{
+    color: #f26522;
+}
+
+
+#feature-area{
+    height: 30rem;
+}
+
+.text-box{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.text-box h2{
+    color: rgb(170, 47, 47);
+    font-size: 2rem;
+    transform: translateY(3rem);
+}
+
+.line1{
+    width: 13rem;
+    height: 1px;
+    background-color: #cacaca;
+    margin: 1% auto;
+    transform: translateY(3rem);
+}
+
+.line2{
+    width: 4rem;
+    height: 4px;
+    background-color: #f26522;
+    margin: auto;
+}
+
+#boxes{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(4rem);
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 5px 12px 0px #40c7ff;
+}
+
+.icon1{
+    width: 90px;
+    height: 90px;
+    margin-top: 5%;
+    margin:  5% auto;
+    box-shadow: 0px 5px 12px 0px #40c7ff;
+    border-radius: 10rem;
+    display: flex;
+
+}
+
+.icon1 img{
+    height: 50%;
+    margin: auto;
+}
+
+.tagline{
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.tagline h4{
+    color: #f26522;
+}
+
+.tagline p{
+    font-size: smaller;
+    margin-top: 2%;
+    color: #b0b0b0;
+}
+
+
+.icon1 h5{
+    margin: auto;
+    font-size: 2rem;
+    color:#f26522;
+}
+
+.box2{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 5px 12px 0px #40c7ff;
+}
+
+.box3{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 5px 12px 0px #40c7ff;
+}
+
+.video-play{
+    width: 40%;
+    position: absolute;
+    left: 27%;
+    transform: translateY(8rem);
+}
+
+.video-play img{
+    width: 100%;
+    display: flex;
+}
+
+#sell-area{
+    background: url(./Images/bg-3.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 50rem;
+}
+
+#Subscribe-area{
+    background: url(./Images/bg-4.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 20rem;
+}
+
+.sub-heading{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(5rem);
+}
+
+.sub-heading p{
+    font-size: 1.3em;
+    color: #f2f2f2;
+}
+
+#Subscribe-area h3{
+    font-size: 3rem;
+    color: #f2f2f2;
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+
+ input{
+    padding: 0% 1%;
+    margin-top: 1rem;
+    border: 10px solid #7c3512;
+    width: 58%;
+    height: 3em;
+}
+
+
+#footer{
+    background: url(./Images/Footer.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 30rem;
+    position: relative;
+}
+
+.submitbox{
+    width: 250px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid red;
+    position: absolute;
+    left: 20%;
+    top: 4%;
+    justify-content: center;
+}
+
+.submitbox h3{
+    margin: 1rem 1rem 1rem;
+
+}
+
+#footer2{
+    height: 3rem;
+    background-color:#1e1e1e;
+}
+
+
+@media (max-width: 1024px){
+    header{
+        display: block;
+        overflow: hidden;
+    }
+
+    .header-content{
+        width: 100%;
+        
+    }
+    .header-content h1{
+        font-size: 2.1rem;
+        color: #ffff;
+    }
+
+    .header-content p{
+        font-size: 15px;
+        margin-top: 1rem;
+        line-height: 1.6em;
+        color: #fff;
+    
+    }
+    
+
+    #feature-area{
+        width: 100%;
+        display: block;
+    }
+
+    .nav-links{
+        font-size: 13px;
+        
+    }
+
+    .video-play img{
+        width: 12rem;
+    }
+    .video-play{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(6rem);
+    }
+    
+
+    #logo-container img{
+     margin-top: 5px;
+    }
+
+    #boxes{
+        width: 100%;
+    }
+    
+
+    #sell-area{
+        display: block;
+        overflow: hidden;
+    }
+
+    #sell-area{
+        width: 100%;
+        height: 34rem;
+    }
+
+    input{
+        padding: 0% 3%;
+        margin-top: 2rem;
+        border: 10px solid #7c3512;
+        width: 70%;
+        height: 3em;
+    }
+    .text-box h2{
+        font-size: 1.5rem;
+        
+    }
+
+    .tagline h4{
+        color: #f26522;
+        font-size: 1rem;
+    }
+
+    .tagline p{
+        font-size: 14px;
+        line-height:16px ;
+        margin-top: 3%;
+        color: #b0b0b0;
+    }
+    
+
+    #boxes{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .icon1{
+        width: 50px;
+        height: 50px;
+    
+    }
+
+    .video-play{
+        width: 40%;
+        margin: auto;
+    }
+    
+
+    #Subscribe-area{
+        width: 100%;
+    }
+
+    #Subscribe-area search-box{
+        padding: 0% 3%;
+        margin-top: 2rem;
+        border: 10px solid #7c3512;
+        width: 70%;
+        height: 3em;
+    }
+
+
+    #Subscribe-area h3{
+        font-size: 1.7rem;
+    }
+
+    #Subscribe-area p{
+        font-size: 1.1em;
+    }
+
+    #Subscribe-area input{
+        padding: 0% 3%;
+        margin-top: 2rem;
+        border: 10px solid #7c3512;
+        width: 70%;
+        height: 3em;
+    }
+
+
+}
+
